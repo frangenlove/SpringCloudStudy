@@ -1,0 +1,64 @@
+# Maven 编译输出目录
+**/target/
+**/*/target/
+
+# 测试相关文件
+**/src/test/
+!**/src/test/java/com/hmall/*/utils/
+**/test-classes/
+**/surefire-reports/
+**/failsafe-reports/
+
+# 日志文件和目录
+logs/
+**/logs/
+*.log
+*.log.*
+
+# IntelliJ IDEA 相关文件
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse 相关文件
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code 相关文件
+.vscode/
+
+# 操作系统相关文件
+.DS_Store
+Thumbs.db
+
+# 编译器缓存
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot 相关
+*.original
+
+# 数据库相关
+*.h2.db
+*.mv.db
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 环境配置文件（敏感信息）
+application-*.yaml
+application-*.yml
+!application-dev.yaml
+!application-local.yaml
+
+# 覆盖率报告
+jacoco/
+coverage/
