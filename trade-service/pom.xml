@@ -12,6 +12,11 @@
     <artifactId>trade-service</artifactId>
 
     <dependencies>
+        <!--amqp-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
         <!--common-->
         <dependency>
             <groupId>com.heima</groupId>

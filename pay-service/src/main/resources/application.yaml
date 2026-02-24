@@ -1,6 +1,12 @@
 server:
   port: 8086
 spring:
+  rabbitmq:
+    host: 172.29.191.120
+    port: 5672
+    virtual-host: /hmall
+    username: hmall
+    password: 123
   application:
     name: pay-service
   profiles:
